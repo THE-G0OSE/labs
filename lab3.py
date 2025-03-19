@@ -90,7 +90,8 @@ def task8():
             break
         elif a >= 10:
             answer.append(a)
-    print(answer)
+    for i in answer:
+        print(i)
 
 def task9():
     cost = int(input('введите цену\n'))
