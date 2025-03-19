@@ -83,12 +83,14 @@ def task7():
         print(answer)
 
 def task8():
+    answer = []
     while True:
         a = int(input('введите число\n'))
         if a > 100:
             break
         elif a >= 10:
-            print(a)
+            answer.append(a)
+    print(answer)
 
 def task9():
     cost = int(input('введите цену\n'))
